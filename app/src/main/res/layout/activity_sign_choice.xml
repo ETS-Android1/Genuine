@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/particulier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="8"
+        android:background="@drawable/particulier"
+        android:elevation="3dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="true">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/particulier" />
+
+        <TextView
+            style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Je suis un particulier"
+            android:textColor="@color/teal_700" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="8"
+        android:background="@drawable/pro"
+        android:elevation="3dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="true">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pro" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Je suis un professionnel"
+            style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel"
+            android:textColor="@color/teal_700"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

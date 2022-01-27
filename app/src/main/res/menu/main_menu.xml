@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/action_create_acc"
+        android:orderInCategory="100"
+        android:title="Create Account"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/choice"
+        android:orderInCategory="100"
+        android:title="SignInChoice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_shopping_cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:orderInCategory="100"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add_product"
+        android:orderInCategory="100"
+        android:title="Ajouter une annonce "
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_products"
+        android:orderInCategory="100"
+        android:title="Mes annonces"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="100"
+        android:title="messagerie"
+        android:icon="@drawable/ic_baseline_message_24"
+        app:showAsAction="never"/>
+
+
+
+
+    <item
+        android:id="@+id/parametres"
+        android:orderInCategory="100"
+        android:title="parameteres"
+        app:showAsAction="never"/>
+
+</menu>

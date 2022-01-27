@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomAppBar_seal"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_business_center_24"
+        android:title="propos_de_nous" />
+
+    <item
+        android:id="@+id/bottomAppBar_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="ajouter_une_annonce"
+        android:titleCondensed="Ajouter une Annonce"
+        />
+
+    <item
+        android:id="@+id/bottomAppBar_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="acceuil" />
+
+
+
+</menu>

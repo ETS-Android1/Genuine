@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Genuine.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Genuine">
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SignUpProfessionnelActivity"
+            android:exported="true" />
+        <activity android:name=".SignChoiceActivity" />
+        <activity android:name=".activity.ModifierAnnonceActivity" />
+        <activity android:name=".activity.ListeAnnonceActivity" />
+        <activity android:name=".activity.ChckOutActivity" />
+        <activity android:name=".activity.AnnonceActivity" />
+        <activity android:name=".activity.SignInActivity" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="Genuine.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="Genuine.com" />
+
+        <activity android:name=".activity.SignUpActivity" />
+        <activity android:name=".activity.AddAnnonce" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
